@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C22DCACF1B5397750009191E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C22DCACE1B5397750009191E /* main.m */; };
+		C22DCAD21B5397750009191E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C22DCAD11B5397750009191E /* AppDelegate.m */; };
+		C22DCAD41B5397750009191E /* liwei-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = C22DCAD31B5397750009191E /* liwei-Prefix.pch */; };
+		C22DCAD61B5397750009191E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22DCAD51B5397750009191E /* Images.xcassets */; };
+		C22DCAD91B5397750009191E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C22DCAD71B5397750009191E /* LaunchScreen.xib */; };
+		C22DCAE51B5397750009191E /* liweiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C22DCAE41B5397750009191E /* liweiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C22DCADF1B5397750009191E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C22DCAC11B5397750009191E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22DCAC81B5397750009191E;
+			remoteInfo = liwei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C22DCAC91B5397750009191E /* liwei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liwei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22DCACD1B5397750009191E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22DCACE1B5397750009191E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C22DCAD01B5397750009191E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C22DCAD11B5397750009191E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C22DCAD31B5397750009191E /* liwei-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "liwei-Prefix.pch"; sourceTree = "<group>"; };
+		C22DCAD51B5397750009191E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C22DCAD81B5397750009191E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C22DCADE1B5397750009191E /* liweiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liweiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22DCAE31B5397750009191E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22DCAE41B5397750009191E /* liweiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = liweiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C22DCAC61B5397750009191E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22DCADB1B5397750009191E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C22DCAC01B5397750009191E = {
+			isa = PBXGroup;
+			children = (
+				C22DCACB1B5397750009191E /* liwei */,
+				C22DCAE11B5397750009191E /* liweiTests */,
+				C22DCACA1B5397750009191E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C22DCACA1B5397750009191E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C22DCAC91B5397750009191E /* liwei.app */,
+				C22DCADE1B5397750009191E /* liweiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22DCACB1B5397750009191E /* liwei */ = {
+			isa = PBXGroup;
+			children = (
+				C22DCAD01B5397750009191E /* AppDelegate.h */,
+				C22DCAD11B5397750009191E /* AppDelegate.m */,
+				C22DCAD31B5397750009191E /* liwei-Prefix.pch */,
+				C22DCAD51B5397750009191E /* Images.xcassets */,
+				C22DCAD71B5397750009191E /* LaunchScreen.xib */,
+				C22DCACC1B5397750009191E /* Supporting Files */,
+			);
+			path = liwei;
+			sourceTree = "<group>";
+		};
+		C22DCACC1B5397750009191E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C22DCACD1B5397750009191E /* Info.plist */,
+				C22DCACE1B5397750009191E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C22DCAE11B5397750009191E /* liweiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C22DCAE41B5397750009191E /* liweiTests.m */,
+				C22DCAE21B5397750009191E /* Supporting Files */,
+			);
+			path = liweiTests;
+			sourceTree = "<group>";
+		};
+		C22DCAE21B5397750009191E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C22DCAE31B5397750009191E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C22DCAC81B5397750009191E /* liwei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22DCAE81B5397750009191E /* Build configuration list for PBXNativeTarget "liwei" */;
+			buildPhases = (
+				C22DCAC51B5397750009191E /* Sources */,
+				C22DCAC61B5397750009191E /* Frameworks */,
+				C22DCAC71B5397750009191E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liwei;
+			productName = liwei;
+			productReference = C22DCAC91B5397750009191E /* liwei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C22DCADD1B5397750009191E /* liweiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22DCAEB1B5397750009191E /* Build configuration list for PBXNativeTarget "liweiTests" */;
+			buildPhases = (
+				C22DCADA1B5397750009191E /* Sources */,
+				C22DCADB1B5397750009191E /* Frameworks */,
+				C22DCADC1B5397750009191E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C22DCAE01B5397750009191E /* PBXTargetDependency */,
+			);
+			name = liweiTests;
+			productName = liweiTests;
+			productReference = C22DCADE1B5397750009191E /* liweiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C22DCAC11B5397750009191E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Liwei;
+				TargetAttributes = {
+					C22DCAC81B5397750009191E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C22DCADD1B5397750009191E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C22DCAC81B5397750009191E;
+					};
+				};
+			};
+			buildConfigurationList = C22DCAC41B5397750009191E /* Build configuration list for PBXProject "liwei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C22DCAC01B5397750009191E;
+			productRefGroup = C22DCACA1B5397750009191E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C22DCAC81B5397750009191E /* liwei */,
+				C22DCADD1B5397750009191E /* liweiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C22DCAC71B5397750009191E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22DCAD41B5397750009191E /* liwei-Prefix.pch in Resources */,
+				C22DCAD91B5397750009191E /* LaunchScreen.xib in Resources */,
+				C22DCAD61B5397750009191E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22DCADC1B5397750009191E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C22DCAC51B5397750009191E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22DCAD21B5397750009191E /* AppDelegate.m in Sources */,
+				C22DCACF1B5397750009191E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22DCADA1B5397750009191E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22DCAE51B5397750009191E /* liweiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C22DCAE01B5397750009191E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C22DCAC81B5397750009191E /* liwei */;
+			targetProxy = C22DCADF1B5397750009191E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C22DCAD71B5397750009191E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C22DCAD81B5397750009191E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C22DCAE61B5397750009191E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C22DCAE71B5397750009191E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C22DCAE91B5397750009191E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = liwei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C22DCAEA1B5397750009191E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = liwei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C22DCAEC1B5397750009191E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = liweiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liwei.app/liwei";
+			};
+			name = Debug;
+		};
+		C22DCAED1B5397750009191E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = liweiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liwei.app/liwei";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C22DCAC41B5397750009191E /* Build configuration list for PBXProject "liwei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22DCAE61B5397750009191E /* Debug */,
+				C22DCAE71B5397750009191E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22DCAE81B5397750009191E /* Build configuration list for PBXNativeTarget "liwei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22DCAE91B5397750009191E /* Debug */,
+				C22DCAEA1B5397750009191E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C22DCAEB1B5397750009191E /* Build configuration list for PBXNativeTarget "liweiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22DCAEC1B5397750009191E /* Debug */,
+				C22DCAED1B5397750009191E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C22DCAC11B5397750009191E /* Project object */;
+}
